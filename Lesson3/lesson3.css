@@ -1,0 +1,40 @@
+.bluetext {
+    color: blue
+}
+
+.boldtext {
+    font-style: bold;
+}
+
+.beautifulPink {
+    color: pink
+}
+
+.awesomeButton {
+    color: lightblue
+    
+}
+
+.awesomeDataList dt {
+    background-color: pink;
+}
+
+.awesomeDataList dd {
+    font-style: italic;
+}
+
+.awesomeDataList dt,
+.awesomeDataList dd {
+    color: pink;
+}
+
+.listCenter {
+    width: 90%;
+    margin: 0 auto;
+    background: bisque;
+    border: 1px solid blue;
+}
+
+.listCenter ul {
+    list-style-type: none;
+}
