@@ -1,0 +1,46 @@
+body { 
+    background-color: #FCA6C9;
+}
+
+.pageContent {
+    text-align: center;
+    width: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pageContent ol {
+    text-align: left;
+}
+
+.textColor {
+    color: white;
+}
+
+.coolFont {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.quotation {
+    margin: 10px 50px;
+    font-size: 30px;
+}
+
+.quotation::before {
+    content: '"';
+    margin-right: 5px;
+    color: lightblue;
+}
+
+footer {
+    margin:0 120px;
+}
+
+footer p {
+    font-size: 80%;
+    margin: 0 
+}
