@@ -215,6 +215,40 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+
+/* Here is where the css for my subpage begins! */
+
+.faq-h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 775;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* .faq-picture {
+    /* margin-left: 60%; */
+/* } */
+
+.paragraph-padding {
+    padding-bottom: 75px;
+}
+
+/* .paragraphs-around-image {
+    grid-column: 1/4;
+} */
+
+.right { float: right; padding: 0 20px 20px 0;}
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
