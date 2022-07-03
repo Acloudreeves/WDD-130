@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=Kdam+Thmor|Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Montserrat&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: white;
-  --secondary-color: #12e0eb ;
+  --secondary-color: #14d0ff ;
   --accent1-color: #a1fff9;
   --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Kdam Thmor Pro";
+  --heading-font: "Changa";
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #12e0eb;  /* headlines on a white background */ 
+  --headline-color-on-white: #14d0ff;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #12e0eb; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #14d0ff; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color:   ;
-  --nav-link-color: #12e0eb;
+  --nav-link-color: #14d0ff;
   --nav-background-color: black;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #12e0eb;
+  --nav-hover-background-color: #14d0ff;
 }
 
 

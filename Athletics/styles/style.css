@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Montserrat&display=swap');
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(10, 10%);
+    row-gap: 50px;
+}
+
+.content2 {
+    grid-column: 3/4;
+    grid-row: 0/3;
+    font-weight: 750;
+    font-size: 45px;
+    text-align: center;
+    line-height: 50%;
+}
+
+.content3 {
+    grid-column: 1/4;
+    grid-row: 3/6;
+    font-weight: 500;
+    font-size: 28px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.content4 {
+    grid-column: 3/6;
+    grid-row: 6/9;
+    font-weight: 500;
+    font-size: 28px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.content5 {
+    grid-column: 1/6;
+    grid-row: 9/11;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.header_content {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(1, 100%);
+    font-family: 'Changa', sans-serif;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerh3a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_text {
+    color: #14d0ff;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.right { float: right; padding: 0 20px 20px 0;}
+
+.left { float: left; padding: 0 20px 20px 0;}
+
+.site_logo {
+    padding-left: 70px;
+}
+
+.main {
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    color: #14d0ff;
+}
+
+.heading_font {
+    color: black;
+    font-family: 'Changa', sans-serif;
+}
+
+.sub_header {
+    font-size: 55px;
+}
