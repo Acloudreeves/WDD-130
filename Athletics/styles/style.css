@@ -12,10 +12,12 @@
     grid-column: 3/4;
     grid-row: 0/3;
     font-weight: 750;
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     line-height: 50%;
 }
+
+
 
 .content3 {
     grid-column: 1/4;
@@ -207,6 +209,7 @@ footer .social img {
 .heading_font {
     color: #14d0ff;
     font-family: 'Changa', sans-serif;
+    grid-template-columns: 1/5;
 }
 
 .sub_header {
@@ -225,7 +228,7 @@ footer .social img {
 
 .container {
     position: relative;
-    width: 50%;
+    width: 60%;
   }
   
   .image {
