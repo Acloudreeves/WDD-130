@@ -45,6 +45,122 @@
     font-size: 28px;
 }
 
+/* below is the css for the subpage1 main paragraphs */ 
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    row-gap: 75px;
+}
+
+.content6 {
+    grid-column: 2/9;
+    grid-row: 0/3;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+
+.content7 {
+    grid-column: 2/9;
+    grid-row: 4/6;
+    font-weight: 500;
+    font-size: 28px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.content8 {
+    grid-column: 2/9;
+    grid-row: 6/9;
+    font-weight: 500;
+    font-size: 28px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.padding_top_and_left {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.img_size {
+    max-width: 100%;
+    height: auto;
+}
+
+.padding_top {
+    padding-top: 48px;
+}
+
+
+.padding_top1 {
+    padding-top: 32px;
+}
+
+.padding_top2 {
+    padding-top: 23px;
+}
+
+.text_color {
+    color: black;
+}
+
+
+
+.logo {
+    width: 175px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    font-size: 48px;
+    display: inline;
+    align-items: center;
+    margin-left: 12em;
+    line-height: 100px;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+
+
+
+/* .header_content1 {
+    grid-template-columns: 1/2;
+}
+
+
+
+.header_content2 {
+    grid-template-columns: 2/3;
+}
+
+.header_content3 {
+    grid-template-columns: 3/4;
+} */
+
+/* ends here */
+
 .header_content {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -79,22 +195,28 @@ footer .social img {
 
 .left { float: left; padding: 0 20px 20px 0;}
 
-.site_logo {
+/* .site_logo {
     padding-left: 70px;
-}
+} */
 
 .main {
     font-family: 'Montserrat', 'Helvetica', sans-serif;
-    color: #14d0ff;
+    color: black;
 }
 
 .heading_font {
-    color: black;
+    color: #14d0ff;
     font-family: 'Changa', sans-serif;
 }
 
 .sub_header {
     font-size: 55px;
+}
+
+.center1 {
+    text-align: center;
+    font-size: 80px;
+    padding-right: 200px;
 }
 
 
@@ -135,8 +257,15 @@ footer .social img {
   }
   
   .text {
-    background-color: green;
+    background-color:#12e0eb;
     color: white;
     font-size: 16px;
     padding: 32px 40px;
+  }
+
+  .text1 {
+    background-color: #12e0eb;
+    color: white;
+    font-size: 16px;
+    padding: 32px 32px;
   }

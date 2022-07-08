@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: white;
-  --secondary-color: #14d0ff ;
-  --accent1-color: #a1fff9;
-  --accent2-color: black;
+  --secondary-color:black;
+  --accent1-color: #14d0ff;
+  --accent2-color: #a1fff9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Changa";
